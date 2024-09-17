@@ -23,10 +23,13 @@ main {
 .image-container {
    margin-bottom: -5px;
 }
+
+.few {
+    padding: 20px 52px;
+}
 .body-container {
     background-color: var(--White);
     max-width: 100%;
-    padding: 20px 52px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
@@ -63,6 +66,7 @@ main {
     border-radius: 50%;
     padding: 10px;
     cursor: pointer;
+    margin-inline-start: 20px;
 }
 .new-text{
     line-height: 0.3;
@@ -75,6 +79,23 @@ main {
     padding-top: 20px;
 }
 
+.hovering-footer {
+    display: flex;
+    flex-direction: row;
+    padding: 20px 52px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    gap: 1rem;
+}
+.hovering-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1rem;
+}
+a {
+    margin-top: 15px;
+}
 @media (min-width: 300px) and (max-width: 768px) {
     .images {
         aspect-ratio: 3/1.5;
@@ -82,13 +103,5 @@ main {
         object-position: 100% 30%;
         border-top: 30px;
     }
-    
-    .hovering-footer {
-        display: flex;
-        flex-direction: row;
-        gap: 1rem;
-    }
-    a {
-        margin-top: 15px;
-    }
+
 }
