@@ -59,13 +59,14 @@ main {
 .share-icon {
     background-color: var(--LightGrayishBlue);
     margin: auto;
+    border: none;
     border-radius: 50%;
     padding: 10px;
+    cursor: pointer;
 }
 .new-text{
     line-height: 0.3;
 }
-
 
 .sub-footer {
     display: flex;
@@ -80,5 +81,14 @@ main {
         object-fit: cover;
         object-position: 100% 30%;
         border-top: 30px;
+    }
+    
+    .hovering-footer {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+    }
+    a {
+        margin-top: 15px;
     }
 }
